@@ -1,0 +1,117 @@
+.custom-header-background {
+    background-image: url("../../../assets/images/header/BG.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+  }
+
+.title {
+ height: 250px;
+ z-index: 1;
+}
+
+.titlecloud {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cloud3 {
+  position: absolute;
+}
+
+.cloud2 {
+  position: absolute;
+  margin-right: 100px;
+}
+
+.cloud1 {
+  position: absolute;
+  margin-left: 100px;
+}
+
+.holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.maintenance {
+  z-index: 1;
+}
+
+.tree{
+  display: flex;
+  justify-content: space-between;
+}
+
+.forground {
+  position:absolute;
+}
+
+.socials{
+  z-index: 1;
+  margin: 25px;
+}
+
+/* KEYFRAMES */
+
+@-webkit-keyframes animateCloud {
+  0% {
+      margin-left: -1000px;
+  }
+  100% {
+      margin-left: 100%;
+  }
+}
+
+@-moz-keyframes animateCloud {
+  0% {
+      margin-left: -1000px;
+  }
+  100% {
+      margin-left: 100%;
+  }
+}
+
+@keyframes animateCloud {
+  0% {
+      margin-left: -1000px;
+  }
+  100% {
+      margin-left: 100%;
+  }
+}
+
+/* ANIMATIONS */
+
+.x1 {
+-webkit-animation: animateCloud 35s linear infinite;
+-moz-animation: animateCloud 35s linear infinite;
+animation: animateCloud 35s linear infinite;
+
+-webkit-transform: scale(0.65);
+-moz-transform: scale(0.65);
+transform: scale(0.65);
+}
+
+.x2 {
+-webkit-animation: animateCloud 20s linear infinite;
+-moz-animation: animateCloud 20s linear infinite;
+animation: animateCloud 20s linear infinite;
+
+-webkit-transform: scale(0.65);
+-moz-transform: scale(0.65);
+transform: scale(0.65);
+}
+
+.x3 {
+-webkit-animation: animateCloud 30s linear infinite;
+-moz-animation: animateCloud 30s linear infinite;
+animation: animateCloud 30s linear infinite;
+
+-webkit-transform: scale(0.5);
+-moz-transform: scale(0.5);
+transform: scale(0.5);
+}
